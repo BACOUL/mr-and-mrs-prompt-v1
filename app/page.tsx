@@ -3,45 +3,67 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-indigo-50 via-white to-white">
-      <section className="mx-auto max-w-6xl px-4 pt-24 pb-16 text-center">
-        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">
-          Mr &amp; Mrs Prompt
+    <main>
+      {/* HERO */}
+      <section className="hero container">
+        <div className="badge"><i/> Nouvelle ère du langage · FR/EN</div>
+        <h1 className="h1" style={{marginTop:16}}>
+          L’art de parler aux intelligences
         </h1>
-        <p className="mt-4 text-lg md:text-xl text-zinc-700 max-w-2xl mx-auto">
-          L’art de parler aux intelligences : exprimez une intention, recevez un résultat impeccable — pour n’importe quelle IA.
+        <p className="lead">
+          Exprimez votre intention, recevez un résultat impeccable — orchestré pour chaque IA.
+          Une couche méta qui marie <strong>raison</strong> (Mr) et <strong>intuition</strong> (Mrs).
         </p>
-        <div className="mt-8 flex items-center justify-center gap-3">
-          <Link href="/prompt-du-jour" className="rounded-xl bg-indigo-600 px-5 py-2.5 text-white font-semibold">
-            Essayer maintenant
-          </Link>
-          <Link href="/pricing" className="rounded-xl border px-5 py-2.5 font-semibold">
-            Tarifs
-          </Link>
+        <div className="cta">
+          <Link href="/prompt-du-jour" className="btn btn-primary">Essayer maintenant</Link>
+          <Link href="/pricing" className="btn">Découvrir les offres</Link>
+        </div>
+        <div className="kpis">
+          <div className="kpi"><strong>+200%</strong><span className="subtle">Efficacité créative</span></div>
+          <div className="kpi"><strong>-60%</strong><span className="subtle">Allers-retours</span></div>
+          <div className="kpi"><strong>Multi-IA</strong><span className="subtle">Texte · Image · Vidéo</span></div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-12 grid gap-6 md:grid-cols-3">
-        {[
-          { title: "Comprendre", text: "Analyse de l’intention (contexte, ton, objectif) pour guider les IA." },
-          { title: "Traduire", text: "Adaptation logique + intuitive vers les modèles (texte, image, vidéo, code)." },
-          { title: "Obtenir", text: "Résultats clairs et fiables, sans itérations interminables." },
-        ].map((c) => (
-          <div key={c.title} className="rounded-2xl border p-6 bg-white">
-            <h3 className="font-semibold">{c.title}</h3>
-            <p className="mt-2 text-sm text-zinc-700">{c.text}</p>
+      {/* VALEUR */}
+      <section className="section container">
+        <div className="grid grid-3">
+          <div className="card">
+            <h3>Comprendre</h3>
+            <p>Analyse de l’intention (contexte, ton, objectif) — compréhension profonde avant exécution.</p>
           </div>
-        ))}
+          <div className="card">
+            <h3>Traduire</h3>
+            <p>Adaptation logique + intuitive pour chaque modèle (GPT, Claude, image, vidéo, code).</p>
+          </div>
+          <div className="card">
+            <h3>Obtenir</h3>
+            <p>Résultats premium, cohérents et réutilisables. Moins d’essais, plus d’impact.</p>
+          </div>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-16 text-center">
-        <div className="inline-flex flex-col items-center gap-4 rounded-2xl border p-8 bg-white">
-          <h3 className="text-xl font-semibold">Passez à l’ère du langage entre les mondes</h3>
-          <Link href="/contact" className="rounded-xl bg-indigo-600 px-5 py-2.5 text-white font-semibold">
-            Demander une démo
-          </Link>
+      {/* TEMOIGNAGES */}
+      <section className="section container">
+        <h2 className="subtle" style={{marginBottom:12}}>Ils en parlent</h2>
+        <div className="testi">
+          <div className="quote">“Nos équipes ont gagné 2 h/jour. Le duo Mr/Mrs est un révélateur d’intentions.”</div>
+          <div className="quote">“Dès le premier essai, le ton est juste. On a l’impression d’être compris.”</div>
+          <div className="quote">“C’est une boussole de langage. Le résultat est plus clair, plus humain.”</div>
+        </div>
+      </section>
+
+      {/* CTA FINAL */}
+      <section className="section" style={{paddingTop:24, paddingBottom:100}}>
+        <div className="container" style={{textAlign:"center"}}>
+          <h3 style={{margin:"0 0 12px 0"}}>Passez à l’ère du langage universel</h3>
+          <p className="subtle">Toujours un pas d’avance sur l’évolution des modèles.</p>
+          <div className="cta" style={{marginTop:18}}>
+            <Link href="/contact" className="btn btn-primary">Demander une démo</Link>
+            <Link href="/manifesto" className="btn">Lire le manifeste</Link>
+          </div>
         </div>
       </section>
     </main>
   );
-}
+      }
