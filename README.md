@@ -1,36 +1,259 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mr and Mrs Prompt
 
-## Getting Started
+[🇫🇷 Français](#français) | [🇺🇸 English](#english)
 
-First, run the development server:
+---
+
+## Français
+
+### 🚀 À propos
+
+**Mr and Mrs Prompt** est une plateforme complète d'optimisation de prompts IA construite avec Next.js 14, offrant une expérience bilingue (FR/EN) élégante et moderne.
+
+### ✨ Fonctionnalités
+
+- 🌐 **Multilingue** : Support complet français et anglais avec next-intl
+- 🎨 **Design moderne** : Interface élégante avec Tailwind CSS et Framer Motion
+- 📱 **Responsive** : Expérience optimale sur mobile et desktop
+- ⚡ **Performance** : Built avec Next.js 14 App Router et Turbopack
+- 🎯 **SEO optimisé** : Métadonnées dynamiques et sitemap complet
+- 📝 **Gestion de contenu** : Prompts quotidiens en Markdown
+- 📨 **Formulaire de contact** : Validation avec react-hook-form et zod
+
+### 🛠 Technologies
+
+- **Framework** : Next.js 14 (App Router)
+- **Styling** : Tailwind CSS, shadcn/ui
+- **Animation** : Framer Motion
+- **i18n** : next-intl
+- **Validation** : react-hook-form, zod
+- **Contenu** : gray-matter (Markdown)
+- **SEO** : next-seo
+
+### 📦 Installation
 
 ```bash
+# Cloner le repository
+git clone https://github.com/BACOUL/mr-and-mrs-prompt-v1.git
+cd mr-and-mrs-prompt-v1
+
+# Installer les dépendances
+npm install
+
+# Copier le fichier d'environnement
+cp .env.example .env
+
+# Lancer le serveur de développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrez [http://localhost:3000](http://localhost:3000) pour voir le résultat.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🔧 Configuration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Créez un fichier `.env` à la racine du projet avec :
 
-## Learn More
+```env
+WEBHOOK_URL=https://your-webhook-url.com/contact
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 📁 Structure du projet
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+mr-and-mrs-prompt-v1/
+├── app/
+│   ├── [locale]/              # Pages localisées
+│   │   ├── layout.tsx         # Layout global
+│   │   ├── page.tsx           # Page d'accueil
+│   │   ├── pricing/           # Page tarifs
+│   │   ├── contact/           # Page contact
+│   │   ├── prompt-du-jour/    # Page prompt quotidien
+│   │   ├── mentions-legales/  # Mentions légales (FR)
+│   │   ├── confidentialite/   # Confidentialité (FR)
+│   │   ├── legal-notice/      # Legal notice (EN)
+│   │   └── privacy/           # Privacy (EN)
+│   └── api/
+│       └── contact/           # API formulaire contact
+├── components/
+│   ├── ui/                    # Composants UI réutilisables
+│   ├── header.tsx             # En-tête avec navigation
+│   └── footer.tsx             # Pied de page
+├── content/
+│   └── prompts/               # Fichiers Markdown des prompts
+├── messages/
+│   ├── fr.json                # Traductions françaises
+│   └── en.json                # Traductions anglaises
+├── lib/                       # Utilitaires
+├── public/                    # Assets statiques
+└── styles/                    # Styles globaux
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🚀 Déploiement sur Vercel
 
-## Deploy on Vercel
+1. **Créer un compte Vercel** : [vercel.com](https://vercel.com)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Importer le projet** :
+   - Connectez votre repository GitHub
+   - Sélectionnez le projet
+   - Vercel détectera automatiquement Next.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Configurer les variables d'environnement** :
+   - Ajoutez `WEBHOOK_URL` dans les paramètres du projet
+
+4. **Déployer** :
+   ```bash
+   npm run build  # Test local
+   git push       # Déploiement automatique sur Vercel
+   ```
+
+### 📝 Ajouter un nouveau prompt
+
+Créez un fichier dans `content/prompts/` :
+
+```markdown
+---
+title: "Titre du prompt"
+date: "2025-10-08"
+tags: ["tag1", "tag2"]
+---
+
+Contenu du prompt ici...
+```
+
+### 🎨 Personnalisation
+
+Les couleurs et styles peuvent être modifiés dans :
+- `tailwind.config.ts` : Configuration Tailwind
+- `styles/globals.css` : Styles globaux
+
+### 📄 Licence
+
+© 2025 Mr and Mrs Prompt. Tous droits réservés.
+
+---
+
+## English
+
+### 🚀 About
+
+**Mr and Mrs Prompt** is a complete AI prompt optimization platform built with Next.js 14, offering an elegant and modern bilingual experience (FR/EN).
+
+### ✨ Features
+
+- 🌐 **Multilingual** : Full French and English support with next-intl
+- 🎨 **Modern Design** : Elegant interface with Tailwind CSS and Framer Motion
+- 📱 **Responsive** : Optimal experience on mobile and desktop
+- ⚡ **Performance** : Built with Next.js 14 App Router and Turbopack
+- 🎯 **SEO Optimized** : Dynamic metadata and complete sitemap
+- 📝 **Content Management** : Daily prompts in Markdown
+- 📨 **Contact Form** : Validation with react-hook-form and zod
+
+### 🛠 Technologies
+
+- **Framework** : Next.js 14 (App Router)
+- **Styling** : Tailwind CSS, shadcn/ui
+- **Animation** : Framer Motion
+- **i18n** : next-intl
+- **Validation** : react-hook-form, zod
+- **Content** : gray-matter (Markdown)
+- **SEO** : next-seo
+
+### 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/BACOUL/mr-and-mrs-prompt-v1.git
+cd mr-and-mrs-prompt-v1
+
+# Install dependencies
+npm install
+
+# Copy environment file
+cp .env.example .env
+
+# Start development server
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to see the result.
+
+### 🔧 Configuration
+
+Create a `.env` file at the root of the project with:
+
+```env
+WEBHOOK_URL=https://your-webhook-url.com/contact
+```
+
+### 📁 Project Structure
+
+```
+mr-and-mrs-prompt-v1/
+├── app/
+│   ├── [locale]/              # Localized pages
+│   │   ├── layout.tsx         # Global layout
+│   │   ├── page.tsx           # Home page
+│   │   ├── pricing/           # Pricing page
+│   │   ├── contact/           # Contact page
+│   │   ├── prompt-du-jour/    # Daily prompt page
+│   │   ├── mentions-legales/  # Legal notice (FR)
+│   │   ├── confidentialite/   # Privacy (FR)
+│   │   ├── legal-notice/      # Legal notice (EN)
+│   │   └── privacy/           # Privacy (EN)
+│   └── api/
+│       └── contact/           # Contact form API
+├── components/
+│   ├── ui/                    # Reusable UI components
+│   ├── header.tsx             # Header with navigation
+│   └── footer.tsx             # Footer
+├── content/
+│   └── prompts/               # Markdown prompt files
+├── messages/
+│   ├── fr.json                # French translations
+│   └── en.json                # English translations
+├── lib/                       # Utilities
+├── public/                    # Static assets
+└── styles/                    # Global styles
+```
+
+### 🚀 Deploy on Vercel
+
+1. **Create a Vercel account** : [vercel.com](https://vercel.com)
+
+2. **Import the project** :
+   - Connect your GitHub repository
+   - Select the project
+   - Vercel will automatically detect Next.js
+
+3. **Configure environment variables** :
+   - Add `WEBHOOK_URL` in project settings
+
+4. **Deploy** :
+   ```bash
+   npm run build  # Local test
+   git push       # Automatic deployment on Vercel
+   ```
+
+### 📝 Add a New Prompt
+
+Create a file in `content/prompts/` :
+
+```markdown
+---
+title: "Prompt title"
+date: "2025-10-08"
+tags: ["tag1", "tag2"]
+---
+
+Prompt content here...
+```
+
+### 🎨 Customization
+
+Colors and styles can be modified in:
+- `tailwind.config.ts` : Tailwind configuration
+- `styles/globals.css` : Global styles
+
+### 📄 License
+
+© 2025 Mr and Mrs Prompt. All rights reserved.

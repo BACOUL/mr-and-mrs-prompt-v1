@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "vision": "Vision",
+    "products": "Produits",
+    "pricing": "Tarifs",
+    "dailyPrompt": "Prompt du jour",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Transformez vos idées en prompts d'exception",
+    "subtitle": "Mr and Mrs Prompt optimise vos prompts IA pour des résultats professionnels et précis",
+    "ctaTry": "Essayer maintenant",
+    "ctaDemo": "Demander une démo"
+  },
+  "vision": {
+    "title": "Notre Vision",
+    "description": "Démocratiser l'accès à l'IA en rendant la création de prompts accessible à tous, tout en garantissant qualité et performance."
+  },
+  "products": {
+    "title": "Nos Produits",
+    "mrAndMrsPrompt": {
+      "title": "Mr and Mrs Prompt",
+      "description": "Plateforme complète d'optimisation de prompts avec IA avancée et templates personnalisables."
+    },
+    "tagos": {
+      "title": "Tagos",
+      "description": "Solution de gestion intelligente de tags pour organiser et structurer vos prompts efficacement."
+    },
+    "digitalMeve": {
+      "title": "Digital Meve",
+      "description": "Outil de mesure et d'évaluation de la performance de vos prompts en temps réel."
+    }
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "step1": {
+      "title": "Décrire",
+      "description": "Décrivez votre besoin en langage naturel"
+    },
+    "step2": {
+      "title": "Optimiser",
+      "description": "Notre IA optimise et structure votre prompt"
+    },
+    "step3": {
+      "title": "Déployer",
+      "description": "Utilisez votre prompt optimisé instantanément"
+    }
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "quote1": {
+      "text": "Mr and Mrs Prompt a transformé ma façon de travailler avec l'IA. Les résultats sont incomparables.",
+      "author": "Sophie Martin",
+      "role": "Product Manager"
+    },
+    "quote2": {
+      "text": "Un outil indispensable pour quiconque souhaite tirer le meilleur parti de l'IA générative.",
+      "author": "Jean Dupont",
+      "role": "Data Scientist"
+    },
+    "quote3": {
+      "text": "L'interface est intuitive et les résultats sont bluffants. Je recommande vivement!",
+      "author": "Marie Lefebvre",
+      "role": "Designer UX"
+    }
+  },
+  "finalCta": {
+    "title": "Prêt à améliorer vos prompts ?",
+    "subtitle": "Rejoignez des milliers d'utilisateurs qui optimisent déjà leurs prompts IA",
+    "button": "Commencer gratuitement"
+  },
+  "pricing": {
+    "title": "Tarifs",
+    "subtitle": "Choisissez le plan qui correspond à vos besoins",
+    "monthly": "par mois",
+    "free": {
+      "name": "Gratuit",
+      "price": "0€",
+      "feature1": "10 prompts par mois",
+      "feature2": "Templates de base",
+      "feature3": "Support communautaire",
+      "cta": "Commencer"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "19€",
+      "popular": "Plus populaire",
+      "feature1": "Prompts illimités",
+      "feature2": "Templates premium",
+      "feature3": "Support prioritaire",
+      "cta": "S'abonner"
+    },
+    "studio": {
+      "name": "Studio",
+      "price": "49€",
+      "feature1": "Tout de Pro +",
+      "feature2": "API complète",
+      "feature3": "Intégrations avancées",
+      "cta": "S'abonner"
+    },
+    "enterprise": {
+      "name": "Entreprise",
+      "price": "Sur mesure",
+      "feature1": "Solutions personnalisées",
+      "feature2": "Support dédié 24/7",
+      "feature3": "SLA garanti",
+      "cta": "Nous contacter"
+    }
+  },
+  "dailyPrompt": {
+    "title": "Prompt du jour",
+    "subtitle": "Découvrez notre sélection quotidienne de prompts optimisés",
+    "copyButton": "Copier le prompt",
+    "copiedButton": "Copié !",
+    "tags": "Tags"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Une question ? Une demande ? Nous sommes là pour vous aider",
+    "name": "Nom",
+    "namePlaceholder": "Votre nom",
+    "email": "Email",
+    "emailPlaceholder": "votre.email@exemple.com",
+    "message": "Message",
+    "messagePlaceholder": "Votre message...",
+    "submit": "Envoyer",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé avec succès !",
+    "error": "Une erreur est survenue. Veuillez réessayer.",
+    "nameRequired": "Le nom est requis",
+    "emailRequired": "L'email est requis",
+    "emailInvalid": "Email invalide",
+    "messageRequired": "Le message est requis"
+  },
+  "footer": {
+    "legalNotice": "Mentions légales",
+    "privacy": "Confidentialité",
+    "disclaimer": "© 2025 Mr and Mrs Prompt. Tous droits réservés. Service non affilié à OpenAI ou autres fournisseurs d'IA."
+  },
+  "legalNotice": {
+    "title": "Mentions légales",
+    "editor": {
+      "title": "Éditeur du site",
+      "content": "Mr and Mrs Prompt\nSAS au capital de 10 000€\nSIRET : 123 456 789 00010\nSiège social : 123 rue de l'Innovation, 75001 Paris, France"
+    },
+    "director": {
+      "title": "Directeur de la publication",
+      "content": "Jean Dupont"
+    },
+    "hosting": {
+      "title": "Hébergement",
+      "content": "Vercel Inc.\n340 S Lemon Ave #4133\nWalnut, CA 91789"
+    }
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "intro": "Votre vie privée est importante pour nous. Cette politique explique comment nous collectons, utilisons et protégeons vos données personnelles.",
+    "dataCollection": {
+      "title": "Collecte des données",
+      "content": "Nous collectons uniquement les données nécessaires au fonctionnement du service : nom, email et messages via le formulaire de contact."
+    },
+    "dataUsage": {
+      "title": "Utilisation des données",
+      "content": "Vos données sont utilisées uniquement pour répondre à vos demandes et améliorer nos services. Elles ne sont jamais vendues à des tiers."
+    },
+    "dataProtection": {
+      "title": "Protection des données",
+      "content": "Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles appropriées pour protéger vos données."
+    },
+    "rights": {
+      "title": "Vos droits",
+      "content": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Contactez-nous pour exercer ces droits."
+    }
+  }
+}
