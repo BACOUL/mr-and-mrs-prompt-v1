@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- French Homepage -->
+  <url>
+    <loc>https://mrandmrsprompt.com/fr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mrandmrsprompt.com/en"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mrandmrsprompt.com/fr"/>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <!-- English Homepage -->
+  <url>
+    <loc>https://mrandmrsprompt.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mrandmrsprompt.com/en"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mrandmrsprompt.com/fr"/>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <!-- French Pricing -->
+  <url>
+    <loc>https://mrandmrsprompt.com/fr/pricing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mrandmrsprompt.com/en/pricing"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mrandmrsprompt.com/fr/pricing"/>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+  <!-- English Pricing -->
+  <url>
+    <loc>https://mrandmrsprompt.com/en/pricing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mrandmrsprompt.com/en/pricing"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mrandmrsprompt.com/fr/pricing"/>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+  <!-- French Daily Prompt -->
+  <url>
+    <loc>https://mrandmrsprompt.com/fr/prompt-du-jour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mrandmrsprompt.com/en/prompt-du-jour"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mrandmrsprompt.com/fr/prompt-du-jour"/>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  
+  <!-- English Daily Prompt -->
+  <url>
+    <loc>https://mrandmrsprompt.com/en/prompt-du-jour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mrandmrsprompt.com/en/prompt-du-jour"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mrandmrsprompt.com/fr/prompt-du-jour"/>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  
+  <!-- French Contact -->
+  <url>
+    <loc>https://mrandmrsprompt.com/fr/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mrandmrsprompt.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mrandmrsprompt.com/fr/contact"/>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+  <!-- English Contact -->
+  <url>
+    <loc>https://mrandmrsprompt.com/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mrandmrsprompt.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mrandmrsprompt.com/fr/contact"/>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+</urlset>
