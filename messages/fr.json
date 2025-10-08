@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "vision": "Vision",
+    "products": "Produits",
+    "pricing": "Tarifs",
+    "dailyPrompt": "Prompt du jour",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Mr and Mrs Prompt",
+    "subtitle": "Transformez vos idées en prompts d'IA optimisés",
+    "cta1": "Essayer maintenant",
+    "cta2": "Demander une démo"
+  },
+  "vision": {
+    "title": "Notre Vision",
+    "description": "Nous croyons que l'intelligence artificielle doit être accessible à tous. Mr and Mrs Prompt simplifie la création de prompts de qualité professionnelle pour maximiser le potentiel de vos outils IA."
+  },
+  "products": {
+    "title": "Nos Produits",
+    "mrAndMrsPrompt": {
+      "name": "Mr and Mrs Prompt",
+      "description": "Plateforme complète pour créer, optimiser et gérer vos prompts IA avec une interface intuitive."
+    },
+    "tagos": {
+      "name": "Tagos",
+      "description": "Système de classification intelligent pour organiser et retrouver vos prompts facilement."
+    },
+    "digitalMeve": {
+      "name": "Digital Meve",
+      "description": "Solution d'analyse et d'optimisation automatique de vos prompts pour de meilleurs résultats."
+    }
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "step1": {
+      "title": "Décrire",
+      "description": "Exprimez votre besoin en langage naturel"
+    },
+    "step2": {
+      "title": "Optimiser",
+      "description": "Notre IA améliore et structure votre prompt"
+    },
+    "step3": {
+      "title": "Déployer",
+      "description": "Utilisez vos prompts optimisés immédiatement"
+    }
+  },
+  "testimonials": {
+    "title": "Ils nous font confiance",
+    "testimonial1": {
+      "quote": "Mr and Mrs Prompt a révolutionné notre façon de travailler avec l'IA. Nos prompts sont désormais bien plus efficaces.",
+      "author": "Sophie Martin, Product Manager"
+    },
+    "testimonial2": {
+      "quote": "Une plateforme intuitive qui fait gagner un temps précieux dans la création de prompts de qualité.",
+      "author": "Jean Dupont, Développeur IA"
+    },
+    "testimonial3": {
+      "quote": "L'optimisation automatique est impressionnante. Nos résultats se sont considérablement améliorés.",
+      "author": "Marie Leblanc, Data Scientist"
+    }
+  },
+  "finalCta": {
+    "title": "Prêt à optimiser vos prompts ?",
+    "description": "Rejoignez des milliers d'utilisateurs qui transforment leurs idées en prompts performants.",
+    "cta": "Commencer gratuitement"
+  },
+  "pricing": {
+    "title": "Tarifs",
+    "subtitle": "Choisissez le plan qui correspond à vos besoins",
+    "free": {
+      "name": "Gratuit",
+      "price": "0€",
+      "period": "",
+      "feature1": "10 prompts par mois",
+      "feature2": "Bibliothèque de base",
+      "feature3": "Support communautaire",
+      "cta": "Commencer"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "19€",
+      "period": "/mois",
+      "popular": "Plus populaire",
+      "feature1": "Prompts illimités",
+      "feature2": "Optimisation avancée",
+      "feature3": "Support prioritaire",
+      "cta": "Essayer Pro"
+    },
+    "studio": {
+      "name": "Studio",
+      "price": "49€",
+      "period": "/mois",
+      "feature1": "Tout de Pro +",
+      "feature2": "Collaboration d'équipe",
+      "feature3": "API personnalisée",
+      "cta": "Essayer Studio"
+    },
+    "enterprise": {
+      "name": "Entreprise",
+      "price": "Sur mesure",
+      "period": "",
+      "feature1": "Solution personnalisée",
+      "feature2": "Support dédié",
+      "feature3": "Intégration sur mesure",
+      "cta": "Nous contacter"
+    }
+  },
+  "dailyPrompt": {
+    "title": "Prompt du jour",
+    "copyButton": "Copier le prompt",
+    "copied": "Copié !",
+    "tags": "Tags"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes là pour répondre à vos questions",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Envoyer",
+    "success": "Message envoyé avec succès !",
+    "error": "Une erreur s'est produite. Veuillez réessayer.",
+    "nameRequired": "Le nom est requis",
+    "emailRequired": "L'email est requis",
+    "emailInvalid": "L'email n'est pas valide",
+    "messageRequired": "Le message est requis"
+  },
+  "footer": {
+    "description": "Transformez vos idées en prompts d'IA optimisés",
+    "legalNotice": "Mentions légales",
+    "privacy": "Confidentialité",
+    "copyright": "© 2025 Mr and Mrs Prompt. Tous droits réservés.",
+    "disclaimer": "Les prompts générés sont fournis à titre informatif. Nous ne garantissons pas les résultats obtenus."
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "content": "Informations légales concernant Mr and Mrs Prompt..."
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "content": "Notre engagement en matière de protection des données..."
+  }
+}

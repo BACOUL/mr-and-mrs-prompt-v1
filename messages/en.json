@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "vision": "Vision",
+    "products": "Products",
+    "pricing": "Pricing",
+    "dailyPrompt": "Daily Prompt",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Mr and Mrs Prompt",
+    "subtitle": "Transform your ideas into optimized AI prompts",
+    "cta1": "Try now",
+    "cta2": "Request a demo"
+  },
+  "vision": {
+    "title": "Our Vision",
+    "description": "We believe artificial intelligence should be accessible to everyone. Mr and Mrs Prompt simplifies the creation of professional-quality prompts to maximize the potential of your AI tools."
+  },
+  "products": {
+    "title": "Our Products",
+    "mrAndMrsPrompt": {
+      "name": "Mr and Mrs Prompt",
+      "description": "Complete platform to create, optimize, and manage your AI prompts with an intuitive interface."
+    },
+    "tagos": {
+      "name": "Tagos",
+      "description": "Intelligent classification system to organize and easily find your prompts."
+    },
+    "digitalMeve": {
+      "name": "Digital Meve",
+      "description": "Automated analysis and optimization solution for your prompts to achieve better results."
+    }
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "step1": {
+      "title": "Describe",
+      "description": "Express your need in natural language"
+    },
+    "step2": {
+      "title": "Optimize",
+      "description": "Our AI improves and structures your prompt"
+    },
+    "step3": {
+      "title": "Deploy",
+      "description": "Use your optimized prompts immediately"
+    }
+  },
+  "testimonials": {
+    "title": "They trust us",
+    "testimonial1": {
+      "quote": "Mr and Mrs Prompt revolutionized the way we work with AI. Our prompts are now much more effective.",
+      "author": "Sophie Martin, Product Manager"
+    },
+    "testimonial2": {
+      "quote": "An intuitive platform that saves precious time in creating quality prompts.",
+      "author": "Jean Dupont, AI Developer"
+    },
+    "testimonial3": {
+      "quote": "The automatic optimization is impressive. Our results have significantly improved.",
+      "author": "Marie Leblanc, Data Scientist"
+    }
+  },
+  "finalCta": {
+    "title": "Ready to optimize your prompts?",
+    "description": "Join thousands of users who transform their ideas into high-performing prompts.",
+    "cta": "Start for free"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Choose the plan that fits your needs",
+    "free": {
+      "name": "Free",
+      "price": "0€",
+      "period": "",
+      "feature1": "10 prompts per month",
+      "feature2": "Basic library",
+      "feature3": "Community support",
+      "cta": "Get started"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "19€",
+      "period": "/month",
+      "popular": "Most popular",
+      "feature1": "Unlimited prompts",
+      "feature2": "Advanced optimization",
+      "feature3": "Priority support",
+      "cta": "Try Pro"
+    },
+    "studio": {
+      "name": "Studio",
+      "price": "49€",
+      "period": "/month",
+      "feature1": "Everything in Pro +",
+      "feature2": "Team collaboration",
+      "feature3": "Custom API",
+      "cta": "Try Studio"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Custom",
+      "period": "",
+      "feature1": "Custom solution",
+      "feature2": "Dedicated support",
+      "feature3": "Custom integration",
+      "cta": "Contact us"
+    }
+  },
+  "dailyPrompt": {
+    "title": "Daily Prompt",
+    "copyButton": "Copy prompt",
+    "copied": "Copied!",
+    "tags": "Tags"
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "We're here to answer your questions",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send",
+    "success": "Message sent successfully!",
+    "error": "An error occurred. Please try again.",
+    "nameRequired": "Name is required",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Email is not valid",
+    "messageRequired": "Message is required"
+  },
+  "footer": {
+    "description": "Transform your ideas into optimized AI prompts",
+    "legalNotice": "Legal Notice",
+    "privacy": "Privacy",
+    "copyright": "© 2025 Mr and Mrs Prompt. All rights reserved.",
+    "disclaimer": "Generated prompts are provided for informational purposes. We do not guarantee the results obtained."
+  },
+  "legal": {
+    "title": "Legal Notice",
+    "content": "Legal information about Mr and Mrs Prompt..."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "content": "Our commitment to data protection..."
+  }
+}
