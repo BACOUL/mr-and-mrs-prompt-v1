@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "pricing": "Tarifs",
+    "promptOfDay": "Prompt du jour"
+  },
+  "footer": {
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "disclaimer": "© 2025 Mr and Mrs Prompt. Tous droits réservés."
+  },
+  "hero": {
+    "title": "Mr and Mrs Prompt",
+    "subtitle": "le cerveau du cerveau",
+    "description": "Transformez vos idées en prompts optimisés grâce à l'intelligence artificielle",
+    "cta1": "Essayer maintenant",
+    "cta2": "Demander une démo"
+  },
+  "vision": {
+    "title": "Notre Vision",
+    "description": "Nous croyons que l'IA doit être accessible à tous. Notre mission est de simplifier la création de prompts pour permettre à chacun d'exploiter pleinement le potentiel de l'intelligence artificielle."
+  },
+  "products": {
+    "title": "Nos Produits",
+    "mrAndMrsPrompt": {
+      "name": "Mr and Mrs Prompt",
+      "description": "Notre plateforme principale pour créer, optimiser et gérer vos prompts d'IA avec une interface intuitive."
+    },
+    "tagos": {
+      "name": "Tagos",
+      "description": "Un système de gestion de tags intelligent pour organiser et retrouver vos prompts facilement."
+    },
+    "digitalMeve": {
+      "name": "Digital Meve",
+      "description": "Assistant digital pour automatiser vos workflows et intégrer l'IA dans vos processus métier."
+    }
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "step1": {
+      "title": "Décrire",
+      "description": "Décrivez simplement ce que vous souhaitez accomplir avec votre prompt."
+    },
+    "step2": {
+      "title": "Optimiser",
+      "description": "Notre IA analyse et optimise votre prompt pour obtenir les meilleurs résultats."
+    },
+    "step3": {
+      "title": "Déployer",
+      "description": "Utilisez votre prompt optimisé dans vos projets et workflows."
+    }
+  },
+  "testimonials": {
+    "title": "Ce que disent nos utilisateurs",
+    "quote1": {
+      "text": "Mr and Mrs Prompt a révolutionné notre façon de travailler avec l'IA. Les résultats sont impressionnants.",
+      "author": "Marie D., Chef de projet"
+    },
+    "quote2": {
+      "text": "Un outil indispensable pour quiconque travaille sérieusement avec les LLMs. Gain de temps considérable.",
+      "author": "Thomas L., Développeur"
+    }
+  },
+  "cta": {
+    "title": "Prêt à élever votre expérience ?",
+    "button": "Commencer maintenant"
+  },
+  "pricing": {
+    "title": "Tarifs",
+    "description": "Choisissez le plan qui vous convient",
+    "free": {
+      "name": "Free",
+      "price": "0€",
+      "period": "/mois",
+      "features": [
+        "10 prompts par mois",
+        "Optimisation de base",
+        "Support communautaire"
+      ],
+      "cta": "Commencer gratuitement"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "19€",
+      "period": "/mois",
+      "badge": "Le plus populaire",
+      "features": [
+        "Prompts illimités",
+        "Optimisation avancée",
+        "Support prioritaire"
+      ],
+      "cta": "Essayer Pro"
+    },
+    "studio": {
+      "name": "Studio",
+      "price": "49€",
+      "period": "/mois",
+      "features": [
+        "Tout de Pro +",
+        "API access",
+        "Collaboration d'équipe"
+      ],
+      "cta": "Essayer Studio"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Contactez-nous",
+      "features": [
+        "Solutions sur mesure",
+        "SLA garanti",
+        "Support dédié"
+      ],
+      "cta": "Nous contacter"
+    }
+  },
+  "promptOfDay": {
+    "title": "Prompt du Jour",
+    "copy": "Copier le prompt",
+    "copied": "Copié !"
+  },
+  "metadata": {
+    "home": {
+      "title": "Mr and Mrs Prompt — Le cerveau du cerveau",
+      "description": "Transformez vos idées en prompts optimisés grâce à l'intelligence artificielle"
+    },
+    "pricing": {
+      "title": "Tarifs — Mr and Mrs Prompt",
+      "description": "Découvrez nos plans tarifaires adaptés à tous les besoins"
+    },
+    "promptOfDay": {
+      "title": "Prompt du Jour — Mr and Mrs Prompt",
+      "description": "Découvrez notre prompt optimisé du jour"
+    }
+  }
+}

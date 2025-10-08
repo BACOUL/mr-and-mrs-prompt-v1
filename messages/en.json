@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "promptOfDay": "Prompt of the Day"
+  },
+  "footer": {
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "disclaimer": "© 2025 Mr and Mrs Prompt. All rights reserved."
+  },
+  "hero": {
+    "title": "Mr and Mrs Prompt",
+    "subtitle": "The Brain of the Brain",
+    "description": "Transform your ideas into optimized prompts with artificial intelligence",
+    "cta1": "Try now",
+    "cta2": "Request a demo"
+  },
+  "vision": {
+    "title": "Our Vision",
+    "description": "We believe AI should be accessible to everyone. Our mission is to simplify prompt creation to allow everyone to fully exploit the potential of artificial intelligence."
+  },
+  "products": {
+    "title": "Our Products",
+    "mrAndMrsPrompt": {
+      "name": "Mr and Mrs Prompt",
+      "description": "Our main platform to create, optimize and manage your AI prompts with an intuitive interface."
+    },
+    "tagos": {
+      "name": "Tagos",
+      "description": "An intelligent tag management system to organize and find your prompts easily."
+    },
+    "digitalMeve": {
+      "name": "Digital Meve",
+      "description": "Digital assistant to automate your workflows and integrate AI into your business processes."
+    }
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "step1": {
+      "title": "Describe",
+      "description": "Simply describe what you want to accomplish with your prompt."
+    },
+    "step2": {
+      "title": "Optimize",
+      "description": "Our AI analyzes and optimizes your prompt to get the best results."
+    },
+    "step3": {
+      "title": "Deploy",
+      "description": "Use your optimized prompt in your projects and workflows."
+    }
+  },
+  "testimonials": {
+    "title": "What our users say",
+    "quote1": {
+      "text": "Mr and Mrs Prompt has revolutionized how we work with AI. The results are impressive.",
+      "author": "Marie D., Project Manager"
+    },
+    "quote2": {
+      "text": "An essential tool for anyone seriously working with LLMs. Considerable time savings.",
+      "author": "Thomas L., Developer"
+    }
+  },
+  "cta": {
+    "title": "Ready to elevate your experience?",
+    "button": "Get started now"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "description": "Choose the plan that suits you",
+    "free": {
+      "name": "Free",
+      "price": "0€",
+      "period": "/month",
+      "features": [
+        "10 prompts per month",
+        "Basic optimization",
+        "Community support"
+      ],
+      "cta": "Start for free"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "19€",
+      "period": "/month",
+      "badge": "Most popular",
+      "features": [
+        "Unlimited prompts",
+        "Advanced optimization",
+        "Priority support"
+      ],
+      "cta": "Try Pro"
+    },
+    "studio": {
+      "name": "Studio",
+      "price": "49€",
+      "period": "/month",
+      "features": [
+        "Everything in Pro +",
+        "API access",
+        "Team collaboration"
+      ],
+      "cta": "Try Studio"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Contact us",
+      "features": [
+        "Custom solutions",
+        "Guaranteed SLA",
+        "Dedicated support"
+      ],
+      "cta": "Contact us"
+    }
+  },
+  "promptOfDay": {
+    "title": "Prompt of the Day",
+    "copy": "Copy prompt",
+    "copied": "Copied!"
+  },
+  "metadata": {
+    "home": {
+      "title": "Mr and Mrs Prompt — The Brain of the Brain",
+      "description": "Transform your ideas into optimized prompts with artificial intelligence"
+    },
+    "pricing": {
+      "title": "Pricing — Mr and Mrs Prompt",
+      "description": "Discover our pricing plans adapted to all needs"
+    },
+    "promptOfDay": {
+      "title": "Prompt of the Day — Mr and Mrs Prompt",
+      "description": "Discover our optimized prompt of the day"
+    }
+  }
+}
