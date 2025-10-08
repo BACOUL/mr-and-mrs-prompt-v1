@@ -1,103 +1,82 @@
-import Image from "next/image";
+"use client";
+
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <main className="min-h-screen">
+      {/* Hero */}
+      <section className="container py-24 text-center">
+        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">
+          Mr and Mrs Prompt — <span className="text-indigo-600">le cerveau du cerveau</span>
+        </h1>
+        <p className="mt-5 text-lg text-zinc-600">
+          L’art de transformer votre intention en prompts impeccables — toujours un temps d’avance sur les IA.
+        </p>
+        <div className="mt-8 flex items-center justify-center gap-3">
+          <Link
+            href="/prompt-du-jour"
+            className="rounded-xl bg-indigo-600 px-4 py-2 text-white font-semibold"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            Voir le prompt du jour
+          </Link>
+          <Link
+            href="/pricing"
+            className="rounded-xl border px-4 py-2 font-semibold"
           >
-            Read our docs
-          </a>
+            Tarifs
+          </Link>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>
+
+      {/* Vision */}
+      <section className="container py-12">
+        <h2 className="text-2xl font-semibold mb-3">Vision</h2>
+        <p className="text-zinc-700">
+          Nous créons une couche d’intelligence méta qui comprend votre intention et parle aux autres IA à votre place.
+          Vous décrivez, nous optimisons, les modèles exécutent.
+        </p>
+      </section>
+
+      {/* Produits */}
+      <section className="container py-12">
+        <h2 className="text-2xl font-semibold mb-6">Produits</h2>
+        <div className="grid gap-4 md:grid-cols-3">
+          <div className="rounded-2xl border p-6 bg-white/70 dark:bg-white/5">
+            <h3 className="font-semibold">Mr and Mrs Prompt</h3>
+            <p className="mt-2 text-sm text-zinc-600">
+              Le générateur méta qui transforme votre intention en prompt optimal pour chaque modèle.
+            </p>
+          </div>
+          <div className="rounded-2xl border p-6 bg-white/70 dark:bg-white/5">
+            <h3 className="font-semibold">Tagos</h3>
+            <p className="mt-2 text-sm text-zinc-600">
+              Référencement d’images (ALT, JSON-LD, sitemaps) — visibilité immédiate.
+            </p>
+          </div>
+          <div className="rounded-2xl border p-6 bg-white/70 dark:bg-white/5">
+            <h3 className="font-semibold">Digital Meve</h3>
+            <p className="mt-2 text-sm text-zinc-600">
+              Preuve d’antériorité horodatée, vérification locale, traçabilité.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA final */}
+      <section className="container py-16 text-center">
+        <div className="inline-flex flex-col items-center gap-4 rounded-2xl border p-8">
+          <h3 className="text-xl font-semibold">
+            Passez à l’ère du prompt parfait.
+          </h3>
+          <Link
+            href="/contact"
+            className="rounded-xl bg-indigo-600 px-4 py-2 text-white font-semibold"
+          >
+            Demander une démo
+          </Link>
+        </div>
+      </section>
+    </main>
   );
 }
