@@ -10,10 +10,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr">
       <body>
-        <header className="border-b">
-          <div className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
-            <Link href="/" className="font-bold">Mr &amp; Mrs Prompt</Link>
-            <nav className="flex gap-4 text-sm">
+        <header className="header">
+          <div className="container inner">
+            <Link href="/" className="logo">
+              <span className="logo-badge" />
+              <span>Mr &amp; Mrs Prompt</span>
+            </Link>
+            <nav className="nav" style={{display:"flex", gap:16}}>
               <Link href="/manifesto">Manifesto</Link>
               <Link href="/prompt-du-jour">Prompt du jour</Link>
               <Link href="/pricing">Tarifs</Link>
@@ -22,12 +25,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
         {children}
-        <footer className="mt-16 border-t">
-          <div className="mx-auto max-w-6xl px-4 py-8 text-sm text-zinc-600">
-            <p>© {new Date().getFullYear()} Mr &amp; Mrs Prompt — L’art de parler aux intelligences.</p>
-            <p className="mt-2">
-              Résultat généré par IA à visée exploratoire. Vérification humaine requise.
-            </p>
+        <footer className="footer">
+          <div className="container subtle">
+            © {new Date().getFullYear()} Mr &amp; Mrs Prompt — L’art de parler aux intelligences. •
+            <span> Résultats IA à visée exploratoire — vérification humaine requise.</span>
           </div>
         </footer>
       </body>
